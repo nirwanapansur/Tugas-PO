@@ -1,0 +1,14 @@
+public class operatorlogika {
+	public static void main(String[] args) {
+		boolean a = false;
+		boolean b = true;
+
+		// Operator logika AND (&&)
+		boolean result = a && b;  // Hasilnya true
+		System.out.println("Hasil a && b = " + result);
+
+		// Operator logika OR (||)
+		result = a || b;  // Hasilnya false
+		System.out.println("Hasil a || b = " + result);
+	}
+}
